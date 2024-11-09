@@ -1,0 +1,85 @@
+/* App.css */
+
+/* General reset and font settings */
+body {
+  font-family: 'Roboto', sans-serif; /* Use a modern, clean font */
+  background-color: #f5f7fa; /* Light background for a clean feel */
+  color: #333; /* Dark gray text color for readability */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+/* Header styles */
+.App-header {
+  background-color: #ffffff; /* White background for a clean card effect */
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+  width: 90%;
+  max-width: 400px; /* Limit the width for better form layout */
+}
+
+/* Button styles */
+button {
+  background-color: #0070ba; /* Amex-inspired blue */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 20px 0;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #005a9c; /* Darker blue on hover */
+}
+
+/* Form styles */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 15px; /* Space between form elements */
+}
+
+label {
+  text-align: left;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 14px;
+  transition: border-color 0.3s;
+}
+
+input:focus {
+  border-color: #0070ba; /* Highlight input border on focus */
+  outline: none;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 600px) {
+  .App-header {
+    width: 100%;
+    padding: 20px;
+  }
+}

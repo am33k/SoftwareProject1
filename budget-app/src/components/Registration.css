@@ -1,0 +1,64 @@
+/* Registration.css */
+
+.registration-form h2 {
+  margin-bottom: 15px;
+  color: #0070ba;
+}
+
+.registration-form form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+
+.registration-form .form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.registration-form .form-group.full-width {
+  grid-column: span 2;
+}
+
+.registration-form label {
+  font-weight: bold;
+  margin-bottom: 3px;
+}
+
+.registration-form input {
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 14px;
+  transition: border-color 0.3s;
+}
+
+.registration-form input:focus {
+  border-color: #0070ba;
+  outline: none;
+}
+
+.registration-form button {
+  background-color: #0070ba;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  grid-column: span 2;
+  margin-top: 15px;
+}
+
+.registration-form button:hover {
+  background-color: #005a9c;
+}
+
+.registration-form .error {
+  color: red;
+  font-size: 12px;
+  margin-top: 3px;
+  grid-column: span 2;
+}
