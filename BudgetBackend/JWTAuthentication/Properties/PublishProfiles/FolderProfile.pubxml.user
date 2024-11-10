@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Sifat\Drive F\Software Dev 1\JWTAuthentication\bin\Release\netcoreapp3.1\publish\</_PublishTargetUrl>
+    <History>True|2024-11-10T07:39:02.1027590Z||;True|2024-11-10T02:20:34.3331519-05:00||;True|2024-11-10T02:20:03.7078462-05:00||;True|2024-11-10T02:13:06.9868582-05:00||;</History>
+    <LastFailureDetails />
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="ConnStr">
+      <Value>Data Source=103.125.255.10,9433%3binitial catalog=budgetmanagedb%3bUser ID=budget%3b Password=budget%40321%40#%3bIntegrated Security=False%3bApplicationIntent=ReadWrite%3bMultiSubnetFailover=False</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="JWTAuthentication.Authentication.ApplicationDbContext">
+      <Value>Data Source=103.125.255.10,9433%3binitial catalog=budgetmanagedb%3bUser ID=budget%3b Password=budget%40321%40#%3bIntegrated Security=False%3bApplicationIntent=ReadWrite%3bMultiSubnetFailover=False</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

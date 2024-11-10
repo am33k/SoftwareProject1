@@ -1,0 +1,4 @@
+C:\Sifat\Drive F\Software Dev 1\JWTAuthentication\obj\Release\netcoreapp3.1\win-x86\PubTmp\Out\appsettings.Development.json
+C:\Sifat\Drive F\Software Dev 1\JWTAuthentication\obj\Release\netcoreapp3.1\win-x86\PubTmp\Out\appsettings.json
+C:\Sifat\Drive F\Software Dev 1\JWTAuthentication\obj\Release\netcoreapp3.1\win-x86\PubTmp\Out\JWTAuthentication.pdb
+C:\Sifat\Drive F\Software Dev 1\JWTAuthentication\obj\Release\netcoreapp3.1\win-x86\PubTmp\Out\JWTAuthentication.exe
