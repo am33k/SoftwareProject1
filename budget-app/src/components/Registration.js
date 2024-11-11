@@ -1,4 +1,3 @@
-// src/components/Registration.js
 import React, { useState } from 'react';
 import axios from 'axios';
 import './Registration.css'; // Import the updated CSS
@@ -16,6 +15,7 @@ function Registration() {
   });
 
   const [errors, setErrors] = useState({});
+  const [successMessage, setSuccessMessage] = useState('');
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -48,16 +48,25 @@ function Registration() {
     if (!validate()) return;
 
     try {
-      const response = await axios.post('http://localhost:5000/api/register', formData);
+      const response = await axios.post(
+        'http://localhost:61955/api/Authenticate/register',
+        formData
+      );
+      setSuccessMessage('Registration successful! Please log in.');
+      setErrors({});
       console.log('Registration successful:', response.data);
     } catch (error) {
       console.error('Error during registration:', error);
+      setErrors({
+        api: error.response?.data?.message || 'Registration failed. Please try again.',
+      });
     }
   };
 
   return (
     <div className="registration-form">
       <h2>Register</h2>
+      {successMessage && <p className="success-message">{successMessage}</p>}
       <form onSubmit={handleSubmit}>
         <div className="form-group">
           <label>First Name:</label>
@@ -156,6 +165,7 @@ function Registration() {
 
         <button type="submit">Register</button>
       </form>
+      {errors.api && <p className="error">{errors.api}</p>}
     </div>
   );
 }
