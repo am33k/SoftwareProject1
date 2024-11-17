@@ -1,65 +1,73 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Sifat\\Drive F\\Software Dev 1\\",
+  "WorkspaceRootPath": "C:\\Sifat\\Drive F\\SoftwareDevelopment\\Budget\\SoftwareProject1\\BudgetBackend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4C0EE14F-7CDD-4ADF-AC0A-1DFE32D79773}|JWTAuthentication\\JWTAuthentication.csproj|c:\\sifat\\drive f\\software dev 1\\jwtauthentication\\controllers\\authenticatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C0EE14F-7CDD-4ADF-AC0A-1DFE32D79773}|JWTAuthentication\\JWTAuthentication.csproj|solutionrelative:jwtauthentication\\controllers\\authenticatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C0EE14F-7CDD-4ADF-AC0A-1DFE32D79773}|JWTAuthentication\\JWTAuthentication.csproj|c:\\sifat\\drive f\\software dev 1\\jwtauthentication\\authentication\\registermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C0EE14F-7CDD-4ADF-AC0A-1DFE32D79773}|JWTAuthentication\\JWTAuthentication.csproj|solutionrelative:jwtauthentication\\authentication\\registermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C0EE14F-7CDD-4ADF-AC0A-1DFE32D79773}|JWTAuthentication\\JWTAuthentication.csproj|c:\\sifat\\drive f\\software dev 1\\jwtauthentication\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{4C0EE14F-7CDD-4ADF-AC0A-1DFE32D79773}|JWTAuthentication\\JWTAuthentication.csproj|c:\\sifat\\drive f\\softwaredevelopment\\budget\\softwareproject1\\budgetbackend\\jwtauthentication\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{4C0EE14F-7CDD-4ADF-AC0A-1DFE32D79773}|JWTAuthentication\\JWTAuthentication.csproj|solutionrelative:jwtauthentication\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4C0EE14F-7CDD-4ADF-AC0A-1DFE32D79773}|JWTAuthentication\\JWTAuthentication.csproj|c:\\sifat\\drive f\\software dev 1\\jwtauthentication\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4C0EE14F-7CDD-4ADF-AC0A-1DFE32D79773}|JWTAuthentication\\JWTAuthentication.csproj|c:\\sifat\\drive f\\softwaredevelopment\\budget\\softwareproject1\\budgetbackend\\jwtauthentication\\controllers\\authenticatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C0EE14F-7CDD-4ADF-AC0A-1DFE32D79773}|JWTAuthentication\\JWTAuthentication.csproj|solutionrelative:jwtauthentication\\controllers\\authenticatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C0EE14F-7CDD-4ADF-AC0A-1DFE32D79773}|JWTAuthentication\\JWTAuthentication.csproj|c:\\sifat\\drive f\\softwaredevelopment\\budget\\softwareproject1\\budgetbackend\\jwtauthentication\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4C0EE14F-7CDD-4ADF-AC0A-1DFE32D79773}|JWTAuthentication\\JWTAuthentication.csproj|solutionrelative:jwtauthentication\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4C0EE14F-7CDD-4ADF-AC0A-1DFE32D79773}|JWTAuthentication\\JWTAuthentication.csproj|c:\\sifat\\drive f\\software dev 1\\jwtauthentication\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{4C0EE14F-7CDD-4ADF-AC0A-1DFE32D79773}|JWTAuthentication\\JWTAuthentication.csproj|solutionrelative:jwtauthentication\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C0EE14F-7CDD-4ADF-AC0A-1DFE32D79773}|JWTAuthentication\\JWTAuthentication.csproj|c:\\sifat\\drive f\\software dev 1\\jwtauthentication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C0EE14F-7CDD-4ADF-AC0A-1DFE32D79773}|JWTAuthentication\\JWTAuthentication.csproj|solutionrelative:jwtauthentication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C0EE14F-7CDD-4ADF-AC0A-1DFE32D79773}|JWTAuthentication\\JWTAuthentication.csproj|c:\\sifat\\drive f\\software dev 1\\jwtauthentication\\migrations\\20241109232115_changes-db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C0EE14F-7CDD-4ADF-AC0A-1DFE32D79773}|JWTAuthentication\\JWTAuthentication.csproj|solutionrelative:jwtauthentication\\migrations\\20241109232115_changes-db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C0EE14F-7CDD-4ADF-AC0A-1DFE32D79773}|JWTAuthentication\\JWTAuthentication.csproj|c:\\sifat\\drive f\\software dev 1\\jwtauthentication\\authentication\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C0EE14F-7CDD-4ADF-AC0A-1DFE32D79773}|JWTAuthentication\\JWTAuthentication.csproj|solutionrelative:jwtauthentication\\authentication\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C0EE14F-7CDD-4ADF-AC0A-1DFE32D79773}|JWTAuthentication\\JWTAuthentication.csproj|c:\\sifat\\drive f\\software dev 1\\jwtauthentication\\authentication\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4C0EE14F-7CDD-4ADF-AC0A-1DFE32D79773}|JWTAuthentication\\JWTAuthentication.csproj|c:\\sifat\\drive f\\softwaredevelopment\\budget\\softwareproject1\\budgetbackend\\jwtauthentication\\authentication\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4C0EE14F-7CDD-4ADF-AC0A-1DFE32D79773}|JWTAuthentication\\JWTAuthentication.csproj|solutionrelative:jwtauthentication\\authentication\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4C0EE14F-7CDD-4ADF-AC0A-1DFE32D79773}|JWTAuthentication\\JWTAuthentication.csproj|c:\\sifat\\drive f\\software dev 1\\jwtauthentication\\authentication\\userroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C0EE14F-7CDD-4ADF-AC0A-1DFE32D79773}|JWTAuthentication\\JWTAuthentication.csproj|solutionrelative:jwtauthentication\\authentication\\userroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C0EE14F-7CDD-4ADF-AC0A-1DFE32D79773}|JWTAuthentication\\JWTAuthentication.csproj|c:\\sifat\\drive f\\software dev 1\\jwtauthentication\\authentication\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C0EE14F-7CDD-4ADF-AC0A-1DFE32D79773}|JWTAuthentication\\JWTAuthentication.csproj|solutionrelative:jwtauthentication\\authentication\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C0EE14F-7CDD-4ADF-AC0A-1DFE32D79773}|JWTAuthentication\\JWTAuthentication.csproj|c:\\sifat\\drive f\\software dev 1\\jwtauthentication\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4C0EE14F-7CDD-4ADF-AC0A-1DFE32D79773}|JWTAuthentication\\JWTAuthentication.csproj|c:\\sifat\\drive f\\softwaredevelopment\\budget\\softwareproject1\\budgetbackend\\jwtauthentication\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4C0EE14F-7CDD-4ADF-AC0A-1DFE32D79773}|JWTAuthentication\\JWTAuthentication.csproj|solutionrelative:jwtauthentication\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4C0EE14F-7CDD-4ADF-AC0A-1DFE32D79773}|JWTAuthentication\\JWTAuthentication.csproj|c:\\sifat\\drive f\\software dev 1\\jwtauthentication\\migrations\\20200621143840_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4C0EE14F-7CDD-4ADF-AC0A-1DFE32D79773}|JWTAuthentication\\JWTAuthentication.csproj|c:\\sifat\\drive f\\softwaredevelopment\\budget\\softwareproject1\\budgetbackend\\jwtauthentication\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C0EE14F-7CDD-4ADF-AC0A-1DFE32D79773}|JWTAuthentication\\JWTAuthentication.csproj|solutionrelative:jwtauthentication\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C0EE14F-7CDD-4ADF-AC0A-1DFE32D79773}|JWTAuthentication\\JWTAuthentication.csproj|c:\\sifat\\drive f\\softwaredevelopment\\budget\\softwareproject1\\budgetbackend\\jwtauthentication\\jwtauthentication.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4C0EE14F-7CDD-4ADF-AC0A-1DFE32D79773}|JWTAuthentication\\JWTAuthentication.csproj|solutionrelative:jwtauthentication\\jwtauthentication.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C0EE14F-7CDD-4ADF-AC0A-1DFE32D79773}|JWTAuthentication\\JWTAuthentication.csproj|c:\\sifat\\drive f\\softwaredevelopment\\budget\\softwareproject1\\budgetbackend\\jwtauthentication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C0EE14F-7CDD-4ADF-AC0A-1DFE32D79773}|JWTAuthentication\\JWTAuthentication.csproj|solutionrelative:jwtauthentication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C0EE14F-7CDD-4ADF-AC0A-1DFE32D79773}|JWTAuthentication\\JWTAuthentication.csproj|c:\\sifat\\drive f\\softwaredevelopment\\budget\\softwareproject1\\budgetbackend\\jwtauthentication\\authentication\\registermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C0EE14F-7CDD-4ADF-AC0A-1DFE32D79773}|JWTAuthentication\\JWTAuthentication.csproj|solutionrelative:jwtauthentication\\authentication\\registermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C0EE14F-7CDD-4ADF-AC0A-1DFE32D79773}|JWTAuthentication\\JWTAuthentication.csproj|c:\\sifat\\drive f\\softwaredevelopment\\budget\\softwareproject1\\budgetbackend\\jwtauthentication\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4C0EE14F-7CDD-4ADF-AC0A-1DFE32D79773}|JWTAuthentication\\JWTAuthentication.csproj|solutionrelative:jwtauthentication\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C0EE14F-7CDD-4ADF-AC0A-1DFE32D79773}|JWTAuthentication\\JWTAuthentication.csproj|c:\\sifat\\drive f\\softwaredevelopment\\budget\\softwareproject1\\budgetbackend\\jwtauthentication\\migrations\\20241109232115_changes-db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C0EE14F-7CDD-4ADF-AC0A-1DFE32D79773}|JWTAuthentication\\JWTAuthentication.csproj|solutionrelative:jwtauthentication\\migrations\\20241109232115_changes-db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C0EE14F-7CDD-4ADF-AC0A-1DFE32D79773}|JWTAuthentication\\JWTAuthentication.csproj|c:\\sifat\\drive f\\softwaredevelopment\\budget\\softwareproject1\\budgetbackend\\jwtauthentication\\authentication\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C0EE14F-7CDD-4ADF-AC0A-1DFE32D79773}|JWTAuthentication\\JWTAuthentication.csproj|solutionrelative:jwtauthentication\\authentication\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C0EE14F-7CDD-4ADF-AC0A-1DFE32D79773}|JWTAuthentication\\JWTAuthentication.csproj|c:\\sifat\\drive f\\softwaredevelopment\\budget\\softwareproject1\\budgetbackend\\jwtauthentication\\authentication\\userroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C0EE14F-7CDD-4ADF-AC0A-1DFE32D79773}|JWTAuthentication\\JWTAuthentication.csproj|solutionrelative:jwtauthentication\\authentication\\userroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C0EE14F-7CDD-4ADF-AC0A-1DFE32D79773}|JWTAuthentication\\JWTAuthentication.csproj|c:\\sifat\\drive f\\softwaredevelopment\\budget\\softwareproject1\\budgetbackend\\jwtauthentication\\authentication\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C0EE14F-7CDD-4ADF-AC0A-1DFE32D79773}|JWTAuthentication\\JWTAuthentication.csproj|solutionrelative:jwtauthentication\\authentication\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C0EE14F-7CDD-4ADF-AC0A-1DFE32D79773}|JWTAuthentication\\JWTAuthentication.csproj|c:\\sifat\\drive f\\softwaredevelopment\\budget\\softwareproject1\\budgetbackend\\jwtauthentication\\migrations\\20200621143840_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4C0EE14F-7CDD-4ADF-AC0A-1DFE32D79773}|JWTAuthentication\\JWTAuthentication.csproj|solutionrelative:jwtauthentication\\migrations\\20200621143840_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4C0EE14F-7CDD-4ADF-AC0A-1DFE32D79773}|JWTAuthentication\\JWTAuthentication.csproj|c:\\sifat\\drive f\\software dev 1\\jwtauthentication\\migrations\\20241109231707_registration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4C0EE14F-7CDD-4ADF-AC0A-1DFE32D79773}|JWTAuthentication\\JWTAuthentication.csproj|c:\\sifat\\drive f\\softwaredevelopment\\budget\\softwareproject1\\budgetbackend\\jwtauthentication\\migrations\\20241109231707_registration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4C0EE14F-7CDD-4ADF-AC0A-1DFE32D79773}|JWTAuthentication\\JWTAuthentication.csproj|solutionrelative:jwtauthentication\\migrations\\20241109231707_registration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4C0EE14F-7CDD-4ADF-AC0A-1DFE32D79773}|JWTAuthentication\\JWTAuthentication.csproj|c:\\sifat\\drive f\\software dev 1\\jwtauthentication\\authentication\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4C0EE14F-7CDD-4ADF-AC0A-1DFE32D79773}|JWTAuthentication\\JWTAuthentication.csproj|c:\\sifat\\drive f\\softwaredevelopment\\budget\\softwareproject1\\budgetbackend\\jwtauthentication\\authentication\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4C0EE14F-7CDD-4ADF-AC0A-1DFE32D79773}|JWTAuthentication\\JWTAuthentication.csproj|solutionrelative:jwtauthentication\\authentication\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -70,65 +78,27 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "UserRoles.cs",
-              "DocumentMoniker": "C:\\Sifat\\Drive F\\Software Dev 1\\JWTAuthentication\\Authentication\\UserRoles.cs",
-              "RelativeDocumentMoniker": "JWTAuthentication\\Authentication\\UserRoles.cs",
-              "ToolTip": "C:\\Sifat\\Drive F\\Software Dev 1\\JWTAuthentication\\Authentication\\UserRoles.cs",
-              "RelativeToolTip": "JWTAuthentication\\Authentication\\UserRoles.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "ApplicationDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Sifat\\Drive F\\SoftwareDevelopment\\Budget\\SoftwareProject1\\BudgetBackend\\JWTAuthentication\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "JWTAuthentication\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Sifat\\Drive F\\SoftwareDevelopment\\Budget\\SoftwareProject1\\BudgetBackend\\JWTAuthentication\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeToolTip": "JWTAuthentication\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAgwGMAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-09T23:12:45.304Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Sifat\\Drive F\\Software Dev 1\\JWTAuthentication\\Authentication\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "JWTAuthentication\\Authentication\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Sifat\\Drive F\\Software Dev 1\\JWTAuthentication\\Authentication\\ApplicationDbContext.cs",
-              "RelativeToolTip": "JWTAuthentication\\Authentication\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-09T23:12:50.125Z"
+              "WhenOpened": "2024-11-09T23:17:41.806Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AuthenticateController.cs",
-              "DocumentMoniker": "C:\\Sifat\\Drive F\\Software Dev 1\\JWTAuthentication\\Controllers\\AuthenticateController.cs",
-              "RelativeDocumentMoniker": "JWTAuthentication\\Controllers\\AuthenticateController.cs",
-              "ToolTip": "C:\\Sifat\\Drive F\\Software Dev 1\\JWTAuthentication\\Controllers\\AuthenticateController.cs",
-              "RelativeToolTip": "JWTAuthentication\\Controllers\\AuthenticateController.cs",
-              "ViewState": "AgIAAEcAAAAAAAAAAAA9wFAAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-09T23:07:56.454Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Startup.cs",
-              "DocumentMoniker": "C:\\Sifat\\Drive F\\Software Dev 1\\JWTAuthentication\\Startup.cs",
-              "RelativeDocumentMoniker": "JWTAuthentication\\Startup.cs",
-              "ToolTip": "C:\\Sifat\\Drive F\\Software Dev 1\\JWTAuthentication\\Startup.cs",
-              "RelativeToolTip": "JWTAuthentication\\Startup.cs",
-              "ViewState": "AgIAAEEAAAAAAAAAAAAgwEsAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-09T23:09:10.652Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Sifat\\Drive F\\Software Dev 1\\JWTAuthentication\\appsettings.json",
+              "DocumentMoniker": "C:\\Sifat\\Drive F\\SoftwareDevelopment\\Budget\\SoftwareProject1\\BudgetBackend\\JWTAuthentication\\appsettings.json",
               "RelativeDocumentMoniker": "JWTAuthentication\\appsettings.json",
-              "ToolTip": "C:\\Sifat\\Drive F\\Software Dev 1\\JWTAuthentication\\appsettings.json",
+              "ToolTip": "C:\\Sifat\\Drive F\\SoftwareDevelopment\\Budget\\SoftwareProject1\\BudgetBackend\\JWTAuthentication\\appsettings.json",
               "RelativeToolTip": "JWTAuthentication\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -137,48 +107,119 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Sifat\\Drive F\\Software Dev 1\\JWTAuthentication\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "JWTAuthentication\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Sifat\\Drive F\\Software Dev 1\\JWTAuthentication\\Properties\\launchSettings.json",
-              "RelativeToolTip": "JWTAuthentication\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABsAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-09T23:34:53.127Z"
+              "DocumentIndex": 1,
+              "Title": "AuthenticateController.cs",
+              "DocumentMoniker": "C:\\Sifat\\Drive F\\SoftwareDevelopment\\Budget\\SoftwareProject1\\BudgetBackend\\JWTAuthentication\\Controllers\\AuthenticateController.cs",
+              "RelativeDocumentMoniker": "JWTAuthentication\\Controllers\\AuthenticateController.cs",
+              "ToolTip": "C:\\Sifat\\Drive F\\SoftwareDevelopment\\Budget\\SoftwareProject1\\BudgetBackend\\JWTAuthentication\\Controllers\\AuthenticateController.cs",
+              "RelativeToolTip": "JWTAuthentication\\Controllers\\AuthenticateController.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAowFQAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T23:07:56.454Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "RegisterModel.cs",
-              "DocumentMoniker": "C:\\Sifat\\Drive F\\Software Dev 1\\JWTAuthentication\\Authentication\\RegisterModel.cs",
-              "RelativeDocumentMoniker": "JWTAuthentication\\Authentication\\RegisterModel.cs",
-              "ToolTip": "C:\\Sifat\\Drive F\\Software Dev 1\\JWTAuthentication\\Authentication\\RegisterModel.cs",
-              "RelativeToolTip": "JWTAuthentication\\Authentication\\RegisterModel.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAA0wB0AAAAvAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\Sifat\\Drive F\\SoftwareDevelopment\\Budget\\SoftwareProject1\\BudgetBackend\\JWTAuthentication\\Startup.cs",
+              "RelativeDocumentMoniker": "JWTAuthentication\\Startup.cs",
+              "ToolTip": "C:\\Sifat\\Drive F\\SoftwareDevelopment\\Budget\\SoftwareProject1\\BudgetBackend\\JWTAuthentication\\Startup.cs",
+              "RelativeToolTip": "JWTAuthentication\\Startup.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAqwBwAAABVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-09T23:12:54.315Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-09T23:09:10.652Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Sifat\\Drive F\\SoftwareDevelopment\\Budget\\SoftwareProject1\\BudgetBackend\\JWTAuthentication\\Authentication\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "JWTAuthentication\\Authentication\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Sifat\\Drive F\\SoftwareDevelopment\\Budget\\SoftwareProject1\\BudgetBackend\\JWTAuthentication\\Authentication\\ApplicationDbContext.cs",
+              "RelativeToolTip": "JWTAuthentication\\Authentication\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T23:12:50.125Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Sifat\\Drive F\\SoftwareDevelopment\\Budget\\SoftwareProject1\\BudgetBackend\\JWTAuthentication\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "JWTAuthentication\\WeatherForecast.cs",
+              "ToolTip": "C:\\Sifat\\Drive F\\SoftwareDevelopment\\Budget\\SoftwareProject1\\BudgetBackend\\JWTAuthentication\\WeatherForecast.cs",
+              "RelativeToolTip": "JWTAuthentication\\WeatherForecast.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T00:56:13.748Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "JWTAuthentication.csproj",
+              "DocumentMoniker": "C:\\Sifat\\Drive F\\SoftwareDevelopment\\Budget\\SoftwareProject1\\BudgetBackend\\JWTAuthentication\\JWTAuthentication.csproj",
+              "RelativeDocumentMoniker": "JWTAuthentication\\JWTAuthentication.csproj",
+              "ToolTip": "C:\\Sifat\\Drive F\\SoftwareDevelopment\\Budget\\SoftwareProject1\\BudgetBackend\\JWTAuthentication\\JWTAuthentication.csproj",
+              "RelativeToolTip": "JWTAuthentication\\JWTAuthentication.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-17T02:25:52.412Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UserRoles.cs",
+              "DocumentMoniker": "C:\\Sifat\\Drive F\\SoftwareDevelopment\\Budget\\SoftwareProject1\\BudgetBackend\\JWTAuthentication\\Authentication\\UserRoles.cs",
+              "RelativeDocumentMoniker": "JWTAuthentication\\Authentication\\UserRoles.cs",
+              "ToolTip": "C:\\Sifat\\Drive F\\SoftwareDevelopment\\Budget\\SoftwareProject1\\BudgetBackend\\JWTAuthentication\\Authentication\\UserRoles.cs",
+              "RelativeToolTip": "JWTAuthentication\\Authentication\\UserRoles.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T23:12:45.304Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Sifat\\Drive F\\Software Dev 1\\JWTAuthentication\\Program.cs",
+              "DocumentMoniker": "C:\\Sifat\\Drive F\\SoftwareDevelopment\\Budget\\SoftwareProject1\\BudgetBackend\\JWTAuthentication\\Program.cs",
               "RelativeDocumentMoniker": "JWTAuthentication\\Program.cs",
-              "ToolTip": "C:\\Sifat\\Drive F\\Software Dev 1\\JWTAuthentication\\Program.cs",
+              "ToolTip": "C:\\Sifat\\Drive F\\SoftwareDevelopment\\Budget\\SoftwareProject1\\BudgetBackend\\JWTAuthentication\\Program.cs",
               "RelativeToolTip": "JWTAuthentication\\Program.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAiwBoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-09T23:22:50.653Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Sifat\\Drive F\\SoftwareDevelopment\\Budget\\SoftwareProject1\\BudgetBackend\\JWTAuthentication\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "JWTAuthentication\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Sifat\\Drive F\\SoftwareDevelopment\\Budget\\SoftwareProject1\\BudgetBackend\\JWTAuthentication\\Properties\\launchSettings.json",
+              "RelativeToolTip": "JWTAuthentication\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAgAAAAAAAAAAABRwBsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-09T23:34:53.127Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RegisterModel.cs",
+              "DocumentMoniker": "C:\\Sifat\\Drive F\\SoftwareDevelopment\\Budget\\SoftwareProject1\\BudgetBackend\\JWTAuthentication\\Authentication\\RegisterModel.cs",
+              "RelativeDocumentMoniker": "JWTAuthentication\\Authentication\\RegisterModel.cs",
+              "ToolTip": "C:\\Sifat\\Drive F\\SoftwareDevelopment\\Budget\\SoftwareProject1\\BudgetBackend\\JWTAuthentication\\Authentication\\RegisterModel.cs",
+              "RelativeToolTip": "JWTAuthentication\\Authentication\\RegisterModel.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAIwB0AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T23:12:54.315Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "20241109232115_changes-db.cs",
-              "DocumentMoniker": "C:\\Sifat\\Drive F\\Software Dev 1\\JWTAuthentication\\Migrations\\20241109232115_changes-db.cs",
+              "DocumentMoniker": "C:\\Sifat\\Drive F\\SoftwareDevelopment\\Budget\\SoftwareProject1\\BudgetBackend\\JWTAuthentication\\Migrations\\20241109232115_changes-db.cs",
               "RelativeDocumentMoniker": "JWTAuthentication\\Migrations\\20241109232115_changes-db.cs",
-              "ToolTip": "C:\\Sifat\\Drive F\\Software Dev 1\\JWTAuthentication\\Migrations\\20241109232115_changes-db.cs",
+              "ToolTip": "C:\\Sifat\\Drive F\\SoftwareDevelopment\\Budget\\SoftwareProject1\\BudgetBackend\\JWTAuthentication\\Migrations\\20241109232115_changes-db.cs",
               "RelativeToolTip": "JWTAuthentication\\Migrations\\20241109232115_changes-db.cs",
               "ViewState": "AgIAAC0AAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -186,11 +227,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "ApplicationUser.cs",
-              "DocumentMoniker": "C:\\Sifat\\Drive F\\Software Dev 1\\JWTAuthentication\\Authentication\\ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Sifat\\Drive F\\SoftwareDevelopment\\Budget\\SoftwareProject1\\BudgetBackend\\JWTAuthentication\\Authentication\\ApplicationUser.cs",
               "RelativeDocumentMoniker": "JWTAuthentication\\Authentication\\ApplicationUser.cs",
-              "ToolTip": "C:\\Sifat\\Drive F\\Software Dev 1\\JWTAuthentication\\Authentication\\ApplicationUser.cs",
+              "ToolTip": "C:\\Sifat\\Drive F\\SoftwareDevelopment\\Budget\\SoftwareProject1\\BudgetBackend\\JWTAuthentication\\Authentication\\ApplicationUser.cs",
               "RelativeToolTip": "JWTAuthentication\\Authentication\\ApplicationUser.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -198,11 +239,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "Response.cs",
-              "DocumentMoniker": "C:\\Sifat\\Drive F\\Software Dev 1\\JWTAuthentication\\Authentication\\Response.cs",
+              "DocumentMoniker": "C:\\Sifat\\Drive F\\SoftwareDevelopment\\Budget\\SoftwareProject1\\BudgetBackend\\JWTAuthentication\\Authentication\\Response.cs",
               "RelativeDocumentMoniker": "JWTAuthentication\\Authentication\\Response.cs",
-              "ToolTip": "C:\\Sifat\\Drive F\\Software Dev 1\\JWTAuthentication\\Authentication\\Response.cs",
+              "ToolTip": "C:\\Sifat\\Drive F\\SoftwareDevelopment\\Budget\\SoftwareProject1\\BudgetBackend\\JWTAuthentication\\Authentication\\Response.cs",
               "RelativeToolTip": "JWTAuthentication\\Authentication\\Response.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -210,23 +251,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ApplicationDbContextModelSnapshot.cs",
-              "DocumentMoniker": "C:\\Sifat\\Drive F\\Software Dev 1\\JWTAuthentication\\Migrations\\ApplicationDbContextModelSnapshot.cs",
-              "RelativeDocumentMoniker": "JWTAuthentication\\Migrations\\ApplicationDbContextModelSnapshot.cs",
-              "ToolTip": "C:\\Sifat\\Drive F\\Software Dev 1\\JWTAuthentication\\Migrations\\ApplicationDbContextModelSnapshot.cs",
-              "RelativeToolTip": "JWTAuthentication\\Migrations\\ApplicationDbContextModelSnapshot.cs",
-              "ViewState": "AgIAAFkAAAAAAAAAAAAgwEcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-09T23:17:41.806Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "20200621143840_Initial.cs",
-              "DocumentMoniker": "C:\\Sifat\\Drive F\\Software Dev 1\\JWTAuthentication\\Migrations\\20200621143840_Initial.cs",
+              "DocumentMoniker": "C:\\Sifat\\Drive F\\SoftwareDevelopment\\Budget\\SoftwareProject1\\BudgetBackend\\JWTAuthentication\\Migrations\\20200621143840_Initial.cs",
               "RelativeDocumentMoniker": "JWTAuthentication\\Migrations\\20200621143840_Initial.cs",
-              "ToolTip": "C:\\Sifat\\Drive F\\Software Dev 1\\JWTAuthentication\\Migrations\\20200621143840_Initial.cs",
+              "ToolTip": "C:\\Sifat\\Drive F\\SoftwareDevelopment\\Budget\\SoftwareProject1\\BudgetBackend\\JWTAuthentication\\Migrations\\20200621143840_Initial.cs",
               "RelativeToolTip": "JWTAuthentication\\Migrations\\20200621143840_Initial.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -234,11 +263,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "20241109231707_registration.cs",
-              "DocumentMoniker": "C:\\Sifat\\Drive F\\Software Dev 1\\JWTAuthentication\\Migrations\\20241109231707_registration.cs",
+              "DocumentMoniker": "C:\\Sifat\\Drive F\\SoftwareDevelopment\\Budget\\SoftwareProject1\\BudgetBackend\\JWTAuthentication\\Migrations\\20241109231707_registration.cs",
               "RelativeDocumentMoniker": "JWTAuthentication\\Migrations\\20241109231707_registration.cs",
-              "ToolTip": "C:\\Sifat\\Drive F\\Software Dev 1\\JWTAuthentication\\Migrations\\20241109231707_registration.cs",
+              "ToolTip": "C:\\Sifat\\Drive F\\SoftwareDevelopment\\Budget\\SoftwareProject1\\BudgetBackend\\JWTAuthentication\\Migrations\\20241109231707_registration.cs",
               "RelativeToolTip": "JWTAuthentication\\Migrations\\20241109231707_registration.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -246,11 +275,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "LoginModel.cs",
-              "DocumentMoniker": "C:\\Sifat\\Drive F\\Software Dev 1\\JWTAuthentication\\Authentication\\LoginModel.cs",
+              "DocumentMoniker": "C:\\Sifat\\Drive F\\SoftwareDevelopment\\Budget\\SoftwareProject1\\BudgetBackend\\JWTAuthentication\\Authentication\\LoginModel.cs",
               "RelativeDocumentMoniker": "JWTAuthentication\\Authentication\\LoginModel.cs",
-              "ToolTip": "C:\\Sifat\\Drive F\\Software Dev 1\\JWTAuthentication\\Authentication\\LoginModel.cs",
+              "ToolTip": "C:\\Sifat\\Drive F\\SoftwareDevelopment\\Budget\\SoftwareProject1\\BudgetBackend\\JWTAuthentication\\Authentication\\LoginModel.cs",
               "RelativeToolTip": "JWTAuthentication\\Authentication\\LoginModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
