@@ -1,24 +1,66 @@
 // App.js
 import React, { useState } from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
-import Login from './components/Login';
 import Registration from './components/Registration';
+import Login from './components/Login';
+import Dashboard from './components/Dashboard';
 
 function App() {
   const [isRegistering, setIsRegistering] = useState(false);
 
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>Welcome to PennyWise</h1> {/* Add your app name here */}
-        <h2>Your personal budgeting companion for smarter spending and saving.</h2>
+    <Router>
+      <div className="App">
+        <Routes>
+          {/* Route for Dashboard */}
+          <Route path="/dashboard" element={<Dashboard />} />
 
-        <button onClick={() => setIsRegistering(!isRegistering)}>
-          {isRegistering ? 'Already have an account? Login' : 'Need an account? Register'}
-        </button>
-        {isRegistering ? <Registration /> : <Login />}
-      </header>
-    </div>
+          {/* Routes for Login and Registration */}
+          <Route
+            path="/"
+            element={
+              <>
+                <header className="App-header">
+                  <h1>Welcome to PennyWise</h1>
+                  <h2>Your personal budgeting companion for smarter spending and saving.</h2>
+                  <button onClick={() => setIsRegistering(!isRegistering)}>
+                    {isRegistering ? 'Already have an account? Login' : 'Need an account? Register'}
+                  </button>
+                </header>
+                {isRegistering ? <Registration /> : <Login />}
+              </>
+            }
+          />
+          <Route
+            path="/register"
+            element={
+              <>
+                <header className="App-header">
+                  <h1>Welcome to PennyWise</h1>
+                  <h2>Your personal budgeting companion for smarter spending and saving.</h2>
+                  <button onClick={() => setIsRegistering(false)}>Already have an account? Login</button>
+                </header>
+                <Registration />
+              </>
+            }
+          />
+          <Route
+            path="/login"
+            element={
+              <>
+                <header className="App-header">
+                  <h1>Welcome to PennyWise</h1>
+                  <h2>Your personal budgeting companion for smarter spending and saving.</h2>
+                  <button onClick={() => setIsRegistering(true)}>Need an account? Register</button>
+                </header>
+                <Login />
+              </>
+            }
+          />
+        </Routes>
+      </div>
+    </Router>
   );
 }
 
