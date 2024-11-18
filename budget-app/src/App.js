@@ -5,6 +5,7 @@ import './App.css';
 import Registration from './components/Registration';
 import Login from './components/Login';
 import Dashboard from './components/Dashboard';
+import logo from './assets/BudgetLogo.png';
 
 function App() {
   const [isRegistering, setIsRegistering] = useState(false);
@@ -22,7 +23,8 @@ function App() {
             element={
               <>
                 <header className="App-header">
-                  <h1>Welcome to PennyWise</h1>
+                  <h1>Welcome to BudgetOnTheGo</h1>
+                  <img src={logo} alt="BudgetOnTheGo Logo" className='App-logo'/>
                   <h2>Your personal budgeting companion for smarter spending and saving.</h2>
                   <button onClick={() => setIsRegistering(!isRegistering)}>
                     {isRegistering ? 'Already have an account? Login' : 'Need an account? Register'}
@@ -37,7 +39,8 @@ function App() {
             element={
               <>
                 <header className="App-header">
-                  <h1>Welcome to PennyWise</h1>
+                  <h1>Welcome to BudgetOnTheGo</h1>
+                  <img src={logo} alt="BudgetOnTheGo Logo" />
                   <h2>Your personal budgeting companion for smarter spending and saving.</h2>
                   <button onClick={() => setIsRegistering(false)}>Already have an account? Login</button>
                 </header>
@@ -50,7 +53,8 @@ function App() {
             element={
               <>
                 <header className="App-header">
-                  <h1>Welcome to PennyWise</h1>
+                  <h1>Welcome to BudgetOnTheGo</h1>
+
                   <h2>Your personal budgeting companion for smarter spending and saving.</h2>
                   <button onClick={() => setIsRegistering(true)}>Need an account? Register</button>
                 </header>
