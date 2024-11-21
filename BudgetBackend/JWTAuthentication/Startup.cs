@@ -26,6 +26,7 @@ namespace JWTAuthentication
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+
             // Register the Swagger generator, defining one or more Swagger documents
             services.AddSwaggerGen(c =>
             {
@@ -35,7 +36,6 @@ namespace JWTAuthentication
             // For Entity Framework
             services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
-
 
             // For Identity
             services.AddIdentity<ApplicationUser, IdentityRole>()
@@ -64,7 +64,18 @@ namespace JWTAuthentication
                     IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(Configuration["JWT:Secret"]))
                 };
             });
-           
+
+            // Adding CORS service to allow requests from any origin
+            services.AddCors(options =>
+            {
+                options.AddPolicy("AllowAllOrigins",
+                    builder =>
+                    {
+                        builder.AllowAnyOrigin()
+                               .AllowAnyMethod()
+                               .AllowAnyHeader();
+                    });
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -73,18 +84,25 @@ namespace JWTAuthentication
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
-               
             }
+
+            // Enable Swagger
             app.UseSwagger();
             app.UseSwaggerUI(c =>
             {
-                c.SwaggerEndpoint("/swagger/v1/swagger.json", "");
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Sample API V1");
             });
+
             app.UseRouting();
 
+            // Use CORS with the policy defined in ConfigureServices
+            app.UseCors("AllowAllOrigins");
+
+            // Authentication & Authorization middleware
             app.UseAuthentication();
             app.UseAuthorization();
 
+            // Map the endpoints
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
