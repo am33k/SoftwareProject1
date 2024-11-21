@@ -31,9 +31,11 @@ namespace JWTAuthentication
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Sample API", Version = "version 1" });
             });
-          
+
             // For Entity Framework
-            services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("ConnStr")));
+            services.AddDbContext<ApplicationDbContext>(options =>
+                options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+
 
             // For Identity
             services.AddIdentity<ApplicationUser, IdentityRole>()
