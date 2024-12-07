@@ -100,7 +100,7 @@
               "RelativeDocumentMoniker": "JWTAuthentication\\appsettings.json",
               "ToolTip": "C:\\Sifat\\Drive F\\SoftwareDevelopment\\Budget\\SoftwareProject1\\BudgetBackend\\JWTAuthentication\\appsettings.json",
               "RelativeToolTip": "JWTAuthentication\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-11-09T23:08:34.535Z",
               "EditorCaption": ""
@@ -223,7 +223,8 @@
               "RelativeToolTip": "JWTAuthentication\\Migrations\\20241109232115_changes-db.cs",
               "ViewState": "AgIAAC0AAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-09T23:21:15.391Z"
+              "WhenOpened": "2024-11-09T23:21:15.391Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -271,7 +272,8 @@
               "RelativeToolTip": "JWTAuthentication\\Migrations\\20241109231707_registration.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-09T23:17:09.331Z"
+              "WhenOpened": "2024-11-09T23:17:09.331Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
