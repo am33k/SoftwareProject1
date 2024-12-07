@@ -1,18 +1,21 @@
-/* Login.css */
+Login.css
 
 .login-form {
-    background-color: #ffffff;
+ 
+    background-color:#F6F6E9;
+    margin-top: 100px;
     padding: 30px;
     border-radius: 10px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-    width: 90%;
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
     max-width: 400px;
     margin: 20px auto;
   }
   
   h2 {
+    margin-top: 100px;
     margin-bottom: 20px;
-    color: #0070ba;
+    color: #2E8B57;
   }
   
   .form-group {
@@ -40,8 +43,8 @@
   }
   
   button {
-    background-color: #0070ba;
-    color: white;
+    background-color: #2E8B57;
+    color: rgb(255, 255, 255);
     border: none;
     border-radius: 5px;
     padding: 10px;
