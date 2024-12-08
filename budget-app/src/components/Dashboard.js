@@ -13,28 +13,55 @@ function Dashboard() {
     date: '',
   });
 
+  const token = localStorage.getItem('authToken');
+
   // Fetch budgets from backend (replace with actual API call)
+
+  const fetchBudgets = async () => {
+    try {
+
+      // Send the request with the Authorization header
+      const response = await fetch('http://localhost:61955/api/Budget', {
+        method: 'GET',
+        headers: {
+          'Authorization': `Bearer ${token}`,
+          'Content-Type': 'application/json'
+        }
+      });
+
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
+      }
+
+      const data = await response.json();
+      setBudgets(data);
+    } catch (error) {
+      console.error('Error fetching budgets:', error);
+    }
+  };
+
+
+  const fetchTransactions = async () => {
+    try {
+
+
+      const response = await fetch('http://localhost:61955/api/Transaction', {
+        method: 'GET',
+        headers: {
+          'Authorization': `Bearer ${token}`,
+          'Content-Type': 'application/json'
+        }
+      });
+
+      const transactions = await response.json();
+      console.log('transactions list:', transactions)
+      setTransactions(transactions);
+    } catch (error) {
+      console.error('Error fetching transactions:', error);
+    }
+  };
+
   useEffect(() => {
-    const fetchBudgets = async () => {
-      try {
-        const response = await fetch('http://localhost:61955/api/budgets');
-        const data = await response.json();
-        setBudgets(data);
-      } catch (error) {
-        console.error('Error fetching budgets:', error);
-      }
-    };
-
-    const fetchTransactions = async () => {
-      try {
-        const response = await fetch('http://localhost:61955/api/transactions');
-        const data = await response.json();
-        setTransactions(data);
-      } catch (error) {
-        console.error('Error fetching transactions:', error);
-      }
-    };
-
     fetchBudgets();
     fetchTransactions();
   }, []);
@@ -42,11 +69,15 @@ function Dashboard() {
   const handleBudgetSubmit = async (e) => {
     e.preventDefault();
 
+
     // API call to save the budget
     try {
-      const response = await fetch('http://localhost:61955/api/budgets', {
+      const response = await fetch('http://localhost:61955/api/Budget', {
         method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
+        headers: {
+          'Authorization': `Bearer ${token}`,
+          'Content-Type': 'application/json'
+        },
         body: JSON.stringify(newBudget),
       });
 
@@ -67,23 +98,27 @@ function Dashboard() {
 
     // API call to save the transaction
     try {
-      const response = await fetch('http://localhost:61955/api/transactions', {
+      const response = await fetch('http://localhost:61955/api/Transaction', {
         method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
+        headers: {
+          'Authorization': `Bearer ${token}`,
+          'Content-Type': 'application/json'
+        },
         body: JSON.stringify(newTransaction),
       });
 
-      if (response.ok) {
-        const savedTransaction = await response.json();
-        setTransactions((prev) => [...prev, savedTransaction]);
-        setNewTransaction({ description: '', category: '', amount: '', date: '' }); // Reset form
-      } else {
-        console.error('Failed to save transaction');
-      }
+
+      const savedTransaction = await response.json();
+      setTransactions((prev) => [...prev, savedTransaction]);
+      setNewTransaction({ description: '', category: '', amount: '', date: '' }); // Reset form
+
     } catch (error) {
       console.error('Error:', error);
     }
   };
+
+
+
 
   return (
     <div className="dashboard">
@@ -145,7 +180,7 @@ function Dashboard() {
               {transactions.map((transaction, index) => (
                 <li key={index}>
                   <strong>{transaction.description}</strong> - ${transaction.amount} on{' '}
-                  {new Date(transaction.date).toLocaleDateString()} ({transaction.category})
+                  {new Intl.DateTimeFormat('en-US', { year: 'numeric', month: 'long', day: 'numeric' }).format(new Date(transaction.date))} ({transaction.category})
                 </li>
               ))}
             </ul>
