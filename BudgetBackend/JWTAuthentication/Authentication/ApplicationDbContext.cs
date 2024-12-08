@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+﻿using JWTAuthentication.Models;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
 namespace JWTAuthentication.Authentication
@@ -13,5 +14,8 @@ namespace JWTAuthentication.Authentication
         {
             base.OnModelCreating(builder);
         }
+
+        DbSet<Budget> budgets { get; set; }
+        DbSet<Transaction> transactions { get; set; }
     }
 }

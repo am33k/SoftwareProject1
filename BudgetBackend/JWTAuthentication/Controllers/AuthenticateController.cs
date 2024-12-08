@@ -40,8 +40,9 @@ namespace JWTAuthentication.Controllers
 
                 var authClaims = new List<Claim>
                 {
-                    new Claim(ClaimTypes.Name, user.UserName),
-                    new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
+                     new Claim(ClaimTypes.Name, user.UserName),
+                     new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
+                     new Claim(ClaimTypes.NameIdentifier, user.Id) // Add UserId as a claim
                 };
 
                 foreach (var userRole in userRoles)
@@ -57,15 +58,17 @@ namespace JWTAuthentication.Controllers
                     expires: DateTime.Now.AddHours(3),
                     claims: authClaims,
                     signingCredentials: new SigningCredentials(authSigningKey, SecurityAlgorithms.HmacSha256)
-                    );
+                );
 
                 return Ok(new
                 {
+                    userId = user.Id, // Include UserId in the response
                     token = new JwtSecurityTokenHandler().WriteToken(token),
                     expiration = token.ValidTo
                 });
             }
             return Unauthorized();
+
         }
 
         [HttpPost]

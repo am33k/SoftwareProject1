@@ -1,4 +1,7 @@
 using JWTAuthentication.Authentication;
+using JWTAuthentication.IRepository;
+using JWTAuthentication.Repository;
+using JWTAuthentication.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -26,11 +29,13 @@ namespace JWTAuthentication
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
-
+            services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
+            services.AddScoped<TransactionManager>();
+            services.AddScoped<BudgetManager>();
             // Register the Swagger generator, defining one or more Swagger documents
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Sample API", Version = "version 1" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Budget Manager API", Version = "version 1" });
             });
 
             // For Entity Framework
