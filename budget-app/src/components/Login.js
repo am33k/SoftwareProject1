@@ -33,7 +33,7 @@ function Login() {
 
       // Handle successful login (e.g., store token in local storage)
       localStorage.setItem('authToken', response.data.token); // Example of storing token
-
+console.log('response.data.token',response.data.token)
       // Redirect to the Dashboard after a successful login
       navigate('/dashboard');
     } catch (error) {
